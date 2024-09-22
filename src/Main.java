@@ -17,7 +17,7 @@ public class Main {
 
             String input = scanner.nextLine();
 
-            if (input.equals("x")) {
+            if (input.equals("q")) {
                 play = false;
             } else if (input.equals("p")) {
                 System.out.println("Type a number from 0 to 9");
