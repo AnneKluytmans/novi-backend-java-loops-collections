@@ -13,7 +13,7 @@ public class Bonus {
         feedback(stringNumber);
     }
 
-    public static HashSet<Integer> randomnumbergenerator(){
+    public static HashSet<Integer> randomNumberGenerator(){
         Random random = new Random();
         HashSet<Integer> randomNumbers = new HashSet<>();
 
