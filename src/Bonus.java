@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Bonus {
 
     public static void main(String[] args) {
-        HashSet<Integer> secretNumbers = randomnumbergenerator();
+        HashSet<Integer> secretNumbers = randomNumberGenerator();
         String stringNumber = setToStringConverter(secretNumbers);
         System.out.println(stringNumber);
         System.out.println("Geheime code gegenereerd. Probeer te raden!");
@@ -73,7 +73,7 @@ public class Bonus {
                         }
                     }
 
-                    System.out.println(feedback.toString());
+                    System.out.println(feedback);
                 }
             } else {
                 System.out.println(invalidInput);
