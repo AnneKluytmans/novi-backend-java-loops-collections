@@ -3,7 +3,7 @@ import java.util.Objects;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Bonus {
+public class Mastermind {
 
     public static void main(String[] args) {
         HashSet<Integer> secretNumbers = randomNumberGenerator();
