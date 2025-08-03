@@ -39,20 +39,11 @@ The main goal of this project is to practice using:
 
 ## How to Run
 
-1. Clone the repository:
-   ```bash
-    git@github.com:AnneKluytmans/novi-backend-homework-java-loops-collections.git
-    ```
-   or
+1. Open the project in your IDE (IntelliJ IDEA)
+2. Locate the `main` method and click the green play button **Run 'Main'** or use the terminal:
     ```bash
-    git clone https://github.com/AnneKluytmans/novi-backend-homework-java-loops-collections.git 
+    ./mvnw clean compile exec:java
     ```
-2. Open the project in your IDE (IntelliJ IDEA)
-3. Navigate to the `Main` class
-4. Locate the `main` method and click the green play button → select **Run 'Main'** or use the terminal:
-```bash
-./mvnw clean compile exec:java
-```
 
 ## Credits
 > "This assignment was developed as part of the Backend Java module in the NOVI Software Development program. All instructions, logic, and structure are part of the official coursework."
